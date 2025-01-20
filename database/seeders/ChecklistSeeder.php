@@ -1,0 +1,497 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class ChecklistSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        // Insert checklists data
+        DB::table('checklists')->insert([
+            // First Year - Second Semester
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 02',
+                'semester' => 'First Semester',
+                'year' => 'First Year',
+                'grade' => '2.25',
+                'instructor_id' => 40,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 05',
+                'semester' => 'First Semester',
+                'year' => 'First Year',
+                'grade' => '1.75',
+                'instructor_id' => 41,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 11',
+                'semester' => 'First Semester',
+                'year' => 'First Year',
+                'grade' => '1.25',
+                'instructor_id' => 42,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 50',
+                'semester' => 'First Semester',
+                'year' => 'First Year',
+                'grade' => '2.25',
+                'instructor_id' => 25,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'DCIT 21',
+                'semester' => 'First Semester',
+                'year' => 'First Year',
+                'grade' => '1.00',
+                'instructor_id' => 43,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'DCIT 22',
+                'semester' => 'First Semester',
+                'year' => 'First Year',
+                'grade' => '1.75',
+                'instructor_id' => 8,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'FITT 1',
+                'semester' => 'First Semester',
+                'year' => 'First Year',
+                'grade' => '1.25',
+                'instructor_id' => 44,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'NSTP 1',
+                'semester' => 'First Semester',
+                'year' => 'First Year',
+                'grade' => '1.25',
+                'instructor_id' => 45,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'CvSU 101',
+                'semester' => 'First Semester',
+                'year' => 'First Year',
+                'grade' => 'S',
+                'instructor_id' => 46,
+            ],
+            
+            // First Year - Second Semester
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 01',
+                'semester' => 'Second Semester',
+                'year' => 'First Year',
+                'grade' => '1.50',
+                'instructor_id' => 47,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 03',
+                'semester' => 'Second Semester',
+                'year' => 'First Year',
+                'grade' => '1.25',
+                'instructor_id' => 21,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 06',
+                'semester' => 'Second Semester',
+                'year' => 'First Year',
+                'grade' => '1.00',
+                'instructor_id' => 48,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 12',
+                'semester' => 'Second Semester',
+                'year' => 'First Year',
+                'grade' => '1.25',
+                'instructor_id' => 42,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'DCIT 23',
+                'semester' => 'Second Semester',
+                'year' => 'First Year',
+                'grade' => '1.25',
+                'instructor_id' => 29,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'ITEC 50',
+                'semester' => 'Second Semester',
+                'year' => 'First Year',
+                'grade' => '1.75',
+                'instructor_id' => 49,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'FITT 2',
+                'semester' => 'Second Semester',
+                'year' => 'First Year',
+                'grade' => '1.25',
+                'instructor_id' => 50,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'NSTP 2',
+                'semester' => 'Second Semester',
+                'year' => 'First Year',
+                'grade' => '1.00',
+                'instructor_id' => 51,
+            ],
+
+             // Second Year - First Semester
+             [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 04',
+                'semester' => 'First Semester',
+                'year' => 'Second Year',
+                'grade' => '1.25',
+                'instructor_id' => 34,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'MATH 1',
+                'semester' => 'First Semester',
+                'year' => 'Second Year',
+                'grade' => '1.50',
+                'instructor_id' => 12,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 55',
+                'semester' => 'First Semester',
+                'year' => 'Second Year',
+                'grade' => '1.25',
+                'instructor_id' => 21,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 60',
+                'semester' => 'First Semester',
+                'year' => 'Second Year',
+                'grade' => '1.25',
+                'instructor_id' => 52,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'DCIT 50',
+                'semester' => 'First Semester',
+                'year' => 'Second Year',
+                'grade' => '1.25',
+                'instructor_id' => 8,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'DCIT 24',
+                'semester' => 'First Semester',
+                'year' => 'Second Year',
+                'grade' => '1.25',
+                'instructor_id' => 17,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'INSY 50',
+                'semester' => 'First Semester',
+                'year' => 'Second Year',
+                'grade' => '1.25',
+                'instructor_id' => 53,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'FITT 3',
+                'semester' => 'First Semester',
+                'year' => 'Second Year',
+                'grade' => '1.25',
+                'instructor_id' => 44,
+            ],
+      
+              // Second Year - Second Semester
+              [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 08',
+                'semester' => 'Second Semester',
+                'year' => 'Second Year',
+                'grade' => '1.00',
+                'instructor_id' => 18,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 14',
+                'semester' => 'Second Semester',
+                'year' => 'Second Year',
+                'grade' => '1.25',
+                'instructor_id' => 19,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'MATH 2',
+                'semester' => 'Second Semester',
+                'year' => 'Second Year',
+                'grade' => '1.75',
+                'instructor_id' => 12,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 65',
+                'semester' => 'Second Semester',
+                'year' => 'Second Year',
+                'grade' => '1.25',
+                'instructor_id' => 32,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 70',
+                'semester' => 'Second Semester',
+                'year' => 'Second Year',
+                'grade' => '1.00',
+                'instructor_id' => 55,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'DCIT 25',
+                'semester' => 'Second Semester',
+                'year' => 'Second Year',
+                'grade' => '1.00',
+                'instructor_id' => 36,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'DCIT 55',
+                'semester' => 'Second Semester',
+                'year' => 'Second Year',
+                'grade' => '1.00',
+                'instructor_id' => 8,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'FITT 4',
+                'semester' => 'Second Semester',
+                'year' => 'Second Year',
+                'grade' => '1.00',
+                'instructor_id' => 54,
+            ],
+
+
+
+            // Third Year - First Semester
+            [
+                'student_number' => '202211717',
+                'course_code' => 'MATH 3',
+                'semester' => 'First Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 75',
+                'semester' => 'First Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 80',
+                'semester' => 'First Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 85',
+                'semester' => 'First Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 101',
+                'semester' => 'First Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'DCIT 26',
+                'semester' => 'First Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'DCIT 65',
+                'semester' => 'First Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+
+
+             // Third Year - Second Semester
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 09',
+                'semester' => 'Second Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'MATH 4',
+                'semester' => 'Second Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 90',
+                'semester' => 'Second Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 95',
+                'semester' => 'Second Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 106',
+                'semester' => 'Second Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'DCIT 60',
+                'semester' => 'Second Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'ITEC 85',
+                'semester' => 'Second Semester',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+
+             // Third Year - MIDYEAR
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 199',
+                'semester' => 'Midyear',
+                'year' => 'Third Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+
+            // FOURTH YEAR - FIRST SEMESTER 
+            [
+                'student_number' => '202211717',
+                'course_code' => 'ITEC 80',
+                'semester' => 'First Semester',
+                'year' => 'Fourth Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 100',
+                'semester' => 'First Semester',
+                'year' => 'Fourth Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 105',
+                'semester' => 'First Semester',
+                'year' => 'Fourth Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 111',
+                'semester' => 'First Semester',
+                'year' => 'Fourth Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 200A',
+                'semester' => 'First Semester',
+                'year' => 'Fourth Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+
+            // Fourth Year - Second Semester
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 07',
+                'semester' => 'Second Semester',
+                'year' => 'Fourth Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'GNED 10',
+                'semester' => 'Second Semester',
+                'year' => 'Fourth Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 110',
+                'semester' => 'Second Semester',
+                'year' => 'Fourth Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+            [
+                'student_number' => '202211717',
+                'course_code' => 'COSC 200B',
+                'semester' => 'Second Semester',
+                'year' => 'Fourth Year',
+                'grade' => null,
+                'instructor_id' => null,
+            ],
+        ]);
+    }
+}
